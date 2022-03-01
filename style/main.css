@@ -1,0 +1,17 @@
+@import './index.css';
+@import './covid.css';
+@import './personalInfo.css';
+@import './redberrianlnsights.css';
+@import './submit.css';
+@import './submitedlist.css';
+@import './tanks.css';
+@import './tenicalskillset.css';
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
