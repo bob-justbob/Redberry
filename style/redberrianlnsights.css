@@ -1,0 +1,150 @@
+/* genera styls */
+.reddberrian {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+}
+
+.about, .insights {
+    width: 50%;
+    height: 1080px;
+}
+
+.insights {
+    background-color: black;
+}
+
+/* about-header */
+
+.about {
+    position: relative;
+}
+
+.about-header {
+    width: 788px;
+    height: 175px;
+    margin: 0 auto;
+    position: absolute;
+    top: 43px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.about-header h1 {
+    font-size: 64px;
+    line-height: 79px;
+    color: #FE3B1F;
+}
+
+.dev-flex {
+
+    display: flex;
+}
+
+.bye {
+    margin-top: 2vh;
+}
+
+
+/* devtalk */ 
+
+.devtalk {
+    width: 645px;
+    height: 119px;
+    margin: 0 auto;
+    margin-top: 345px;
+
+}
+
+.devtalk p {
+    width: 635px;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+}
+
+
+.textarea {
+    width: 535px;
+    height: 122px;
+    margin-top: 11px;
+}
+
+.special {
+    margin-top: 33px;
+}
+
+.textspecial {
+    margin-top: 11px;
+    width: 535px;
+    height: 89px;
+}
+
+.text-special {
+    width: 535px;
+    height: 89px;
+    margin-top: 11px;
+}
+
+/* about-buttons */
+
+.about-buttons {
+    width: 231px;
+    height: 19px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 85px;
+}
+
+.about-buttons div {
+    width: 19px;
+    height: 19px;
+    background-color: #FE3B1F;
+    opacity: 0.1;
+    border-radius: 50%;
+}
+
+.about-one,
+.about-two,
+.about-three,
+.about-for {
+    background-color: #FE3B1F;
+    opacity: 1 !important;
+}
+
+
+/* insights-header */
+
+.insights-header {
+    width: 788px;
+    height: 175px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.insights-header h1 {
+    font-size: 64px;
+    line-height: 79px;
+    color: #FE3B1F;
+}
+ 
+.insights-text {
+    width: 705px;
+    height: 606px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.insights-text p {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+}
