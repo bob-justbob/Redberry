@@ -1,0 +1,182 @@
+body {
+    display: flex;
+}
+
+
+.technical-skills, .our-battles {
+    width: 50%;
+    /* height: 1080px; */
+}
+
+/* technical-skills */
+.technical-header {
+    width: 788px;
+    height: 175px;
+    margin: 0 auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technical-header h1 {
+    font-size: 64px;
+    line-height: 79px;
+    color: #FE3B1F;
+}
+
+/* technical-input */
+
+.technical-input {
+    width: 455px;
+    height: 193px;
+    margin: 0 auto;
+    margin-top: 119px;
+}
+
+label {
+    width: 455px;
+    height: 54px;
+    display: flex;
+    position: relative;
+
+}
+.remove {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 0;
+}
+
+.margin-top {
+    margin-top: 17px;
+}
+.skill-btn {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    top: 20px;
+    height: 15px;
+    width: 10px;
+    
+}
+.skill-btn img {
+    object-fit: cover;
+
+}
+input {
+    width: 455px;
+    height: 54px;
+
+}
+
+
+.input-a {
+    width: 195px;
+    height: 30px;
+    background-color: #FE3B1F;
+    float: right;
+    margin-top: 29px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.input-a a {
+    color: #ffffff;
+    padding: 5px 4px;
+}
+
+
+#experiance {
+    margin-top: 31px;
+}
+
+/* technic-second */
+.technic-second {
+    width: 455px;
+    
+    margin: 0 auto;
+    margin-top: 119px;
+}
+
+/* skil-buttons */
+
+.skill-buttons {
+    width: 231px;
+    height: 10px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-evenly;
+}
+
+.skill-buttons div {
+    width: 19px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FE3B1F;
+    opacity: 0.1;
+}
+
+/* .skill-buttons::before {
+    content: '';
+    background-image: url(../image/Previous.svg);
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.skill-buttons img {
+    width: 18px;
+    height: 18px;
+}
+
+
+.skil-one, .skill-two {
+    background-color: #FE3B1F;
+    opacity: 1 !important;
+}
+
+/* out-battles */
+.our-battles {
+    background-color: black;
+}
+
+.battle-header {
+    width: 788px;
+    height: 175px;
+    margin: 0 auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.battle-header h1 {
+    margin-left: 30px;
+    font-size: 64px;
+    line-height: 79px;
+    color: #FE3B1F;
+}
+
+
+/* battle-text */
+
+.battle-text {
+    width: 705px;
+    height: 606px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+
+.battle-text p {
+    color: #ffffff;
+}
