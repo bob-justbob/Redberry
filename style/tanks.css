@@ -1,0 +1,24 @@
+/* genera style */
+
+.thanks-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%);
+}
+
+.thanks-header {
+    width: 1066px;
+    height: 191px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-header h1 {
+    font-size: 96px;
+    line-height: 119px;
+    color: #FE3B1F;
+}
