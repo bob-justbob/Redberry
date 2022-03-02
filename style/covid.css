@@ -1,0 +1,108 @@
+/* general styles */
+.covid-main {
+    width: 100%;
+    height: 1380px;
+    display: flex;
+}
+
+.covid-left, .covid-right {
+    width: 50%;
+    height: 1380px;
+}
+.covid-right {
+    background-color: black;
+}
+
+/* covid-left */
+.covid-header {
+    width: 788px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.covid-header h1 {
+    font-size: 64px;
+    line-height: 79px;
+    color: #FE3B1F;
+}
+
+/* covid-content */
+ .covid-content {
+     width: 645px;
+     height: 65vh;
+     background-color: aqua;
+     /* margin: 0 auto; */
+     margin-top: 65px;
+ }
+
+ .covid-work {
+     width: 645px;
+     height: 157px;
+     margin: 0 auto;
+ }
+ .covid-work input {
+     
+ }
+.covid-work p {
+    font-size: 18px;
+    line-height: 22px;
+    height: 52px;
+}
+
+.covid-flex {
+    display: flex;
+    position: relative;
+    width: 445px;
+}
+
+
+.round {
+    margin-right: 1vh;
+    width: 12px;
+    height: 12px;
+   
+}
+
+.covid-vaccinated {
+    margin-top: 77px;
+}
+
+.covid-flex input {
+    /* border-radius: 50%; */
+    
+}
+
+.covid-flex a {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 0;
+}
+
+/* covid-buttons */
+.covid-buttons {
+    width: 231px;
+    height: 19px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 142px;
+    justify-content: space-evenly;
+}
+
+.covid-buttons div {
+    background-color: #FE3B1F;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+.covid-one, .covid-two, .covid-three {
+    background-color: #FE3B1F;
+    opacity: 1 !important;
+}
+
+
+/* covid-right */
