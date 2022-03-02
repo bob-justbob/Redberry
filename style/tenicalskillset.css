@@ -5,7 +5,7 @@ body {
 
 .technical-skills, .our-battles {
     width: 50%;
-    /* height: 1080px; */
+    height: 1080px;
 }
 
 /* technical-skills */
@@ -110,7 +110,7 @@ input {
     height: 10px;
     margin: 0 auto;
     display: flex;
-    margin-top: 90px;
+    margin-top: 80px;
     justify-content: space-evenly;
 }
 
@@ -159,7 +159,7 @@ input {
 }
 
 .battle-header h1 {
-    margin-left: 30px;
+    margin-left: 10vh;
     font-size: 64px;
     line-height: 79px;
     color: #FE3B1F;
@@ -169,14 +169,17 @@ input {
 /* battle-text */
 
 .battle-text {
-    width: 705px;
+    width: 565px;
     height: 606px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    background-color: blue;
 }
 
 .battle-text p {
-    color: #ffffff;
+    color: #e0dddd;
+    font-size: 24px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    
 }
