@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-top: 61px;
 }
 
 .covid-header h1 {
@@ -43,9 +44,7 @@
      height: 157px;
      margin: 0 auto;
  }
- .covid-work input {
-     
- }
+
 .covid-work p {
     font-size: 18px;
     line-height: 22px;
@@ -106,3 +105,19 @@
 
 
 /* covid-right */
+
+.policies-header {
+    width: 788px;
+    height: 175px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 61px;
+}
+
+.policies-header h1 {
+    color: #FE3B1F;
+    font-size: 64px;
+    line-height: 79px;
+}
