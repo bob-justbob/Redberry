@@ -1,0 +1,110 @@
+    /* section-start */
+.start {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/stars.svg);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+ /* start-main div  */
+.start-main {
+    width: 70%;
+    height: 95%;
+    text-align: center;
+}
+
+/* gemeral div center and width */
+.start-header, 
+.start-btn, 
+.start-sumbit, 
+.start-image{
+    width: 100%;
+
+}
+.start-header div, 
+.start-btn div, 
+.start-sumbit div, 
+.start-image div {
+    margin: 0 auto;
+}
+/* start-header  */
+.header-inside {
+    width: 1090px;
+    height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-inside h1 {
+    font-size: 96px;
+    line-height: 119px;
+    color: #FE3B1F;
+}
+
+/* start-btn */
+.start-btn {
+    margin-top: 105px;
+
+}
+
+.btn-inside {
+    width: 395px;
+    height: 79px;
+    background-color: #FE3B1F;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-inside a {
+    color: #FE3B1F;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+
+}
+
+/* start-submit */
+
+.start-sumbit {
+    margin-top: 18px;
+
+}
+.submit-inside {
+    width: 338px;
+    height: 66px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.submit-inside a {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 111;
+
+}
+
+/* starg-image */
+.start-image {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.image-isnide {
+    border: 2px solid gray;
+    width: 409.92px;
+    height: 372.45px;
+    position: absolute;
+    
+}
