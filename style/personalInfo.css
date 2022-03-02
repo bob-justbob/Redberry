@@ -1,0 +1,131 @@
+body {
+    display: flex;
+}
+/* main two div-es */
+.personal-info, .redberry-origins {
+    width: 50%;
+    height: 1080px;
+}
+.redberry-origins {
+    background-color: black;
+}
+
+.uppercase  {
+    text-transform: capitalize;
+}
+/* personal-info */
+
+
+.info-header {
+    width: 716px;
+    text-align: center;
+    height: 128px;
+    margin: 0 auto;
+    margin-top:  131px;
+}
+
+.info-header h1 {
+    font-size: 64px;
+    line-height: 40px;
+    color: #FE3B1F;
+}
+
+
+/* info-form */
+
+.info-form {
+    width: 455px;
+    height: 533px;
+    margin: 0 auto;
+    margin-top: 131px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.info-form input {
+    width: 455px;
+    height: 53px;
+    border: 1px solid #525557 ;
+}
+
+#lname, #email, #phone {
+    margin-top: 37px;
+}
+
+/* buttons */
+
+.buttons {
+    width: 231px;
+    height: 19px;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    bottom: 0;
+    align-items: center;
+    left: 100px;
+}
+
+.buttons div {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    opacity: 0.1;
+    background-color: #FE3B1F;
+
+}
+
+
+.buttons::before {
+    content: "";
+    background-image: url(../image/Previous.svg);
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.buttons::after {
+    content: "";
+    background-image: url(../image/Next.svg);
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-one {
+    background-color: #FE3B1F ;
+    opacity: 0.9 !important; 
+}
+
+/* redberry-origins */
+
+.origin-header {
+    width: 716px;
+    height: 94px;
+    margin: 0 auto;
+    margin-top: 112px;
+    margin-left: 177px;
+
+}
+
+.origin-header h1 {
+    color: #FE3B1F;
+    font-size: 64px;
+}
+
+.origin-text {
+    width: 605px;
+    height: 606px;
+    margin: 0 auto;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.origin-text p {
+    color: #ecebeb;
+    font-size: 24px;
+    line-height: 60px;
+    letter-spacing: -0.0.5rem;
+}
