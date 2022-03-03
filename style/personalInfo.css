@@ -75,23 +75,6 @@ body {
 }
 
 
-.buttons::before {
-    content: "";
-    background-image: url(../image/Previous.svg);
-    width: 25px;
-    height: 25px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.buttons::after {
-    content: "";
-    background-image: url(../image/Next.svg);
-    width: 25px;
-    height: 25px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 .info-one {
     background-color: #FE3B1F ;
