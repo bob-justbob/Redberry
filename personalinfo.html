@@ -12,19 +12,21 @@
         <div class="info-header">
             <h1 class="uppercase">hey, rocketeer, what </h1>
             <h1>are you coordinates?</h1>
-            <div class="info-form">
-                <input type="text" id="fname" name="fname" placeholder="       First Name">
-                <input type="text" id="lname" name="lname" placeholder="       Last Name"> 
-                <input type="email" id="email" name="email" placeholder="      E Mail">
-                <input type="tel" id="phone" name="phone" placeholder="        +995 5_ _ _ _">
+            <div class="info-form" id="personal">
+                <form action="" method="post">
+                <input type="text" id="fname" name="fname" min="2" max="12"  placeholder="First Name" required>
+                <input type="text" id="lname" name="lname" placeholder="       Last Name" required> 
+                <input type="email" id="email" name="email" placeholder="      E Mail" required>
+                <input type="tel" id="phone" name="phone" min="2" placeholder="        +995 5_ _ _ _" required>
                 <div class="buttons">
-                    <img src="./image/Previous.svg" alt="Previous">
-                    <a href="index.html"><div class="info-one"></div></a>
+                </form>
+                    <img id="left" src="./image/Previous.svg" alt="Previous">
+                    <a href="personalinfo.html"><div class="info-one"></div></a>
                    <a href="technicalSkillset.html"><div class="info-two"></div></a> 
                    <a href="covid.html"> <div class="info-three"></div></a>
                    <a href="redberrianInsights.html"><div class="info-foru"></div></a> 
                     <a href="submit.html"><div class="info-five"></div></a>
-                    <img src="./image/Next.svg" alt="next">
+                    <a href="technicalSkillset.html"><img id="right" src="./image/Next.svg" alt="next"></a>
                 </div>
             </div>
         </div>
@@ -37,5 +39,6 @@
             <p>You watch “What? Where? When?” Yeah. Our founders used to play it. That’s where they got a question about a famous American author and screenwriter Ray Bradbury. Albeit, our CEO Gaga Darsalia forgot the exact name and he answered Ray Redberry. And at that moment, a name for a yet to be born company was inspired - Redberry 😇</p>
         </div>
     </div>
+    <script src="my.js"></script>
 </body>
 </html>
