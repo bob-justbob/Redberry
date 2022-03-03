@@ -14,9 +14,9 @@
             <h1>are you coordinates?</h1>
             <div class="info-form" id="personal">
                 <form action="" method="post">
-                <input type="text" id="fname" name="fname" min="2" max="12"  placeholder="First Name" required>
+                <input type="text" id="fname" name="fname" minlength="2" placeholder="First Name" required>
                 <input type="text" id="lname" name="lname" placeholder="       Last Name" required> 
-                <input type="email" id="email" name="email" placeholder="      E Mail" required>
+                <input type="email" id=" email" name="email" onkeydown="validation()" placeholder="       E Mail" required>
                 <input type="tel" id="phone" name="phone" min="2" placeholder="        +995 5_ _ _ _" required>
                 <div class="buttons">
                 </form>
