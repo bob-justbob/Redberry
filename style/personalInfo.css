@@ -1,10 +1,22 @@
 body {
     display: flex;
+    flex-direction: row;
 }
+
+
 /* main two div-es */
 .personal-info, .redberry-origins {
     width: 50%;
     height: 1080px;
+}
+
+@media (max-width: 1796px) {
+    body {
+        flex-direction: column;
+    }
+    .personal-info, .redberry-origins {
+        width: 100%;
+    }
 }
 .redberry-origins {
     background-color: black;
@@ -23,11 +35,47 @@ body {
     margin: 0 auto;
     margin-top:  131px;
 }
+@media (max-width: 1539px) {
+    .info-header {
+        width: 80%;
+        margin: 0; 
+    }
+}
+
+@media (max-width: 1160px) {
+    .info-header {
+        width: 50%;
+    }
+}
+
 
 .info-header h1 {
     font-size: 64px;
     line-height: 40px;
     color: #FE3B1F;
+}
+
+@media (max-width: 1160px) {
+    .info-header h1  {
+        line-height: 40px;
+        font-size: 45px;
+    }
+}
+@media (max-width: 842px) {
+    .info-header-box {
+        width: 80%;
+        margin-left: 13vh;
+    }
+}
+.info-header h1 {
+    font-size: 35px;
+    line-height: 30px;
+}
+@media (max-width: 660px) {
+    .info-header h1 {
+        font-size: 150%;
+        width: 100%;
+    }
 }
 
 
@@ -46,6 +94,13 @@ body {
     width: 455px;
     height: 53px;
     border: 1px solid #525557 ;
+}
+
+@media (max-width: 840px){
+    .info-form {
+        width: 100%;
+        margin: 5vh 0;
+    }
 }
 
 #lname, #email, #phone {
@@ -74,6 +129,10 @@ body {
 
 }
 
+.buttons img {
+    width: 20px;
+    height: 20px;
+}
 
 
 .info-one {
@@ -89,13 +148,23 @@ body {
     margin: 0 auto;
     margin-top: 112px;
     margin-left: 177px;
-
 }
 
 .origin-header h1 {
     color: #FE3B1F;
     font-size: 64px;
 }
+
+@media (max-width: 1789px) {
+    .origin-header {
+        width: 100%;
+        margin: 5vh 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 .origin-text {
     width: 605px;
@@ -106,9 +175,31 @@ body {
     align-items: center;
 }
 
+
+
 .origin-text p {
     color: #ecebeb;
     font-size: 24px;
     line-height: 60px;
     letter-spacing: -0.0.5rem;
+}
+
+@media (max-width: 1789px) {
+    .origin-text {
+        width: 100%;
+        background-color: blue;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .origin-text div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 458px) {
+    .origin-text p {
+        font-size: 18px;
+        line-height: 40px;
+    }
 }
