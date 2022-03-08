@@ -1,13 +1,23 @@
 /* genera styls */
 .reddberrian {
     width: 100%;
-    height: 1080px;
     display: flex;
+    flex-direction: row;
 }
+
 
 .about, .insights {
     width: 50%;
     height: 1080px;
+}
+
+@media (max-width: 1600px) {
+    .reddberrian {
+        flex-direction: column;
+    }
+    .about, .insights {
+        width: 100%;
+    }
 }
 
 .insights {
@@ -36,7 +46,29 @@
     line-height: 79px;
     color: #FE3B1F;
 }
+@media (max-width: 1580px) {
+    .about-header {
+        width: 80%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .about-header div {
+        width: 60%;
 
+    }
+    .about-header div h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 851px) {
+    .about-header {
+        justify-content: left;
+    }
+}
 .dev-flex {
 
     display: flex;
@@ -56,13 +88,36 @@
     margin-top: 345px;
 
 }
+@media (max-width: 1143px) {
+    .devtalk {
+        margin: 0;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .devtalk div {
+        width: 40%;
+    }
+}
 
 .devtalk p {
     width: 635px;
     font-size: 18px;
     line-height: 22px;
+
     
-    
+}
+@media (max-width: 839px) {
+    .devtalk  {
+      justify-content: left;
+      padding: 0 2vh;
+      margin-top: 10vh;
+    }
+    .devtalk p {
+        width: 250%;
+        background-color: aqua;
+    }
 }
 
 
@@ -76,7 +131,7 @@
     margin-top: 33px;
 }
 
-.textspecial {
+.text-special {
     margin-top: 11px;
     width: 535px;
     height: 89px;
@@ -86,6 +141,14 @@
     width: 535px;
     height: 89px;
     margin-top: 11px;
+}
+@media (max-width: 611px){
+    .textarea, .text-special {
+        width: 100%;
+    }
+    .speak input, .special input {
+        width: 600%;
+    }
 }
 
 /* about-buttons */
@@ -97,6 +160,11 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 85px;
+}
+
+.about-buttons img {
+    width: 19px;
+    height: 19px;
 }
 
 .about-buttons div {
@@ -125,13 +193,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 43px;
+    /* margin-top: 43px; */
 }
 
 .insights-header h1 {
     font-size: 64px;
     line-height: 79px;
     color: #FE3B1F;
+}
+@media (max-width: 932px) {
+    .insights-header {
+        width: 100%;
+        margin: 0;
+    }
+    .insights-header div {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
 }
  
 .insights-text {
@@ -147,4 +226,27 @@
     font-size: 24px;
     line-height: 200%;
     letter-spacing: 0.05em;
+}
+
+@media (max-width: 812px) {
+    .insights-text {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .insights-text div {
+        width: 80%;
+    }
+    .insights-text div p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 326px) {
+    .insights-text div p {
+        padding-top: 10vh;
+    }
 }
