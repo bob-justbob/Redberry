@@ -22,3 +22,19 @@
     line-height: 119px;
     color: #FE3B1F;
 }
+
+@media (max-width: 1171px) {
+    .thanks-header {
+        width: 100%;
+    }   
+    .thanks-header div {
+        width: 90%;
+
+    }
+}
+
+@media (max-width: 342px) {
+    .thanks-header div h1 {
+        font-size: 68px;
+    }
+}
