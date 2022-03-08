@@ -44,6 +44,12 @@
     }
 }
 
+@media (max-width: 416px) {
+    .start-header div h1 {
+        padding: 0 5vh;
+    }
+}
+
 @media (max-width: 319px) {
     .start-header div h1 {
         line-height: 80px;
@@ -108,7 +114,7 @@
     width: 409px;
     height: 372px;
     position: absolute;
-    left: 37%;
+    left: 46%;
     transform: rotate(-27deg);  
     top: 25px;
 
