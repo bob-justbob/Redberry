@@ -1,11 +1,22 @@
 body {
     display: flex;
+    flex-direction: row;
 }
+
 
 
 .technical-skills, .our-battles {
     width: 50%;
     height: 1080px;
+}
+
+@media (max-width: 1836px) {
+    body {
+        flex-direction: column;
+    }
+    .technical-skills, .our-battles {
+        width: 100%;
+    }
 }
 
 /* technical-skills */
@@ -17,14 +28,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
+@media (max-width: 1848px) {
+    .technical-header {
+        width: 100%;
+        margin: 3vh 0;
+    }
+    .technical-header div {
+        width: 80%;
+    }
+}
+
+
 
 .technical-header h1 {
     font-size: 64px;
     line-height: 79px;
     color: #FE3B1F;
 }
-
+@media (max-width: 400px) {
+    .technical-header div h1 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+}
 /* technical-input */
 
 .technical-input {
@@ -32,8 +61,19 @@ body {
     height: 193px;
     margin: 0 auto;
     margin-top: 119px;
+    position: relative;
 }
-
+.technical-input img {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+}
+@media(max-width: 721px) {
+    .technical-input img {
+        top: 15px;
+        left: 15px;
+    }
+}
 label {
     width: 455px;
     height: 54px;
@@ -98,9 +138,57 @@ input {
 /* technic-second */
 .technic-second {
     width: 455px;
-    
     margin: 0 auto;
     margin-top: 119px;
+    position: relative;
+}
+
+.technic-second img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+@media (max-width: 803px){
+    .technic-second {
+        width: 65%;
+        margin: 0;
+    }
+    .technic-second input {
+        width: 100%;
+        margin: 2vh 4vh;
+
+    }
+    .technical-input {
+        width: 65%;
+        margin: 0;
+    }
+    .technical-input input {
+        width: 100%;
+        margin: 2vh 4vh;
+    }
+
+}
+
+@media (max-width: 736px) {
+    .technic-second img {
+        top: 70px;
+    }
+}
+@media (max-width: 500px) {
+    .technical-input {
+        width: 80%;
+    }
+    .technical-header input {
+        margin: 0;
+    }
+    .technic-second {
+        width: 80%;
+    }
+    .technic-second input {
+        width: 100%;
+        margin: 2vh 4vh;
+
+    }
 }
 
 /* skil-buttons */
@@ -114,6 +202,10 @@ input {
     justify-content: space-evenly;
 }
 
+.skill-buttons img {
+    width: 19px;
+    height: 19px;
+}
 .skill-buttons div {
     width: 19px;
     height: 15px;
@@ -158,11 +250,26 @@ input {
     align-items: center;
 }
 
+
 .battle-header h1 {
     margin-left: 10vh;
     font-size: 64px;
     line-height: 79px;
     color: #FE3B1F;
+}
+@media (max-width: 1156px){
+    .battle-header {
+        width: 100%;
+        margin: 4vh 4vh;
+        text-align: center;
+    }
+    .battle-header div {
+        width: 90%;
+        text-align: center;
+    }
+    .battle-header div h1 {
+        font-size: 40px;
+    }
 }
 
 
@@ -182,4 +289,19 @@ input {
     line-height: 200%;
     letter-spacing: 0.05em;
     
+}
+
+@media (max-width: 1177px) {
+    .battle-text {
+        justify-content: center;
+        width: 100%;
+        margin-top: 15vg;
+    }
+    .battle-text div {
+        width: 60%;
+    }
+    .battle-text div p {
+        font-size: 20px;
+        line-height: 160%;
+    }
 }
