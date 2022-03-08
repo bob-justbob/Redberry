@@ -1,14 +1,26 @@
 /* general styles */
 .covid-main {
     width: 100%;
-    height: 1380px;
+    /* height: 1380px; */
     display: flex;
+    flex-direction: row;
 }
-
 .covid-left, .covid-right {
     width: 50%;
     height: 1380px;
 }
+
+@media (max-width: 1800px) {
+    .covid-main {
+        flex-direction: column;
+    }
+    .covid-left, .covid-right {
+        width: 100%;
+    }
+}
+
+
+
 .covid-right {
     background-color: black;
 }
@@ -24,10 +36,21 @@
     margin-top: 61px;
 }
 
+
 .covid-header h1 {
     font-size: 64px;
     line-height: 79px;
     color: #FE3B1F;
+}
+@media (max-width: 1792px) {
+    .covid-header {
+        margin: 5vh 0;
+        width: 100%;
+    }
+    .covid-header div {
+        width: 50%;
+        text-align: center;
+    }
 }
 
 /* covid-content */
@@ -51,12 +74,35 @@
     height: 52px;
 }
 
+@media (max-width: 540px) {
+    .covid-work {
+        width: 100%;
+        padding: 0 2vh;
+    }
+}
+
 .covid-flex {
     display: flex;
     position: relative;
     width: 445px;
 }
-
+.covid-flex img {
+    width: 20px;
+    height: 20px;
+}
+@media (max-width: 706px) {
+    .div-something {
+       width: 80%;
+       margin: 0 auto;
+    }
+    .covid-flex {
+        width: 100%;
+    }
+    .div-something img {
+        right: 55px;
+        position: absolute;
+    }
+}
 
 .round {
     margin-right: 1vh;
@@ -64,6 +110,7 @@
     height: 12px;
    
 }
+
 
 .covid-vaccinated {
     margin-top: 77px;
@@ -89,6 +136,10 @@
     display: flex;
     margin-top: 142px;
     justify-content: space-evenly;
+}
+.covid-buttons img {
+    width: 20px;
+    height: 20px;
 }
 
 .covid-buttons div {
@@ -139,4 +190,37 @@
     line-height: 200%;
     letter-spacing: 0.05em;
     font-weight: normal;
+}
+
+@media (max-width: 1788px) {
+    .policies-header {
+        margin: 5vh 0;
+        width: 100%;
+    }
+    .policies-header h1 {
+        font-size: 45px;
+    }
+    .policies-header div {
+        width: 60%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 713px) {
+    .policies-text {
+        margin: 5vh 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .policies-text div {
+        width: 80%;
+        padding-top: 20vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .policies-text p {
+        font-size: 19px;
+    }
 }
