@@ -41,3 +41,9 @@
     line-height: 34px;
     color: #ffffff;
 }
+
+@media (max-width: 403px) {
+    .submit-submeted {
+        width: 100%;
+    }
+}
