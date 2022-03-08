@@ -42,10 +42,21 @@
 }
 @media (max-width: 1200px) {
     .header-inside {
-        width: 80%;
+        width: 100%;
+        margin: 0;
+    }
+    .header-inside div {
+        width: 90%;
+        display: flex;
+        justify-content: center;
     }
 }
 
+@media (max-width: 550px) {
+    .header-inside {
+        justify-content: left;
+    }
+}
 
 
 .header-inside h1 {
@@ -130,10 +141,13 @@
 }
 
 .image-isnide {
+
+    position: absolute;
+    background-color: aqua;
+}
+.imnage-isnide img {
     width: 409.92px;
     height: 372.45px;
-    position: absolute;
-    
 }
 
 
@@ -141,8 +155,23 @@
     .start-image {
         width: 80%;
         top: 380px;
+        left: 230px;
     }
 }
+@media (max-width: 831px) {
+    .start-image {
+        left: 130px;
+    }
+}
+@media (max-width: 586px) {
+    .start-image{
+        left: 80px;
+    }
+    .start {
+        height: 120vh;
+    }
+}
+
 
 @media (max-width: 530px) {
     .image-isnide {
@@ -156,4 +185,18 @@
     .start-image {
         top: 440px;
     }
+    .start {
+        height: 1010vh;
+    }
+}
+
+@media (max-width: 535px) {
+    .start-image {
+        top: 550px;
+        left: 100px;
+    }
+}
+
+@media (max-width: 450px) {
+
 }
