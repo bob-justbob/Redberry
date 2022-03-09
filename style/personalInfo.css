@@ -12,7 +12,7 @@ body {
 
 @media (max-width: 1896px) {
     body {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .personal-info, .redberry-origins {
         width: 100%;
@@ -40,8 +40,10 @@ body {
         width: 100%;
         margin: 0;
         text-align: center;
+        margin-top: 2vh;
     }
 }
+
 
 .info-header h1 {
     font-size: 64px;
@@ -160,6 +162,15 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .origin-header {
+        height: 14vh;
+    }
+    .origin-header h1 {
+        font-size: 40px;
     }
 }
 

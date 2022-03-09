@@ -12,7 +12,7 @@ body {
 
 @media (max-width: 1836px) {
     body {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .technical-skills, .our-battles {
         width: 100%;
@@ -249,7 +249,7 @@ input {
     margin: 0 auto;
     margin-top: 72px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
@@ -260,11 +260,23 @@ input {
     line-height: 79px;
     color: #FE3B1F;
 }
+@media (max-width: 1236px) {
+    .battle-header {
+        width: 80%;
+        margin: 0;
+
+    }
+    .battle-header div {
+        background-color: aqua;
+        display: flex;
+        justify-content: left;
+    }
+}
 @media (max-width: 1156px){
     .battle-header {
-        width: 100%;
+        width: 80%;
         margin: 4vh 4vh;
-        text-align: center;
+        /* text-align: center; */
     }
     .battle-header div {
         width: 90%;
@@ -272,6 +284,21 @@ input {
     }
     .battle-header div h1 {
         font-size: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .battle-header div h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .battle-header div {
+        width: 100%;
+        justify-content: left;
+    }
+    .battle-header {
+        margin: 0;
+        width: 90%;
+        justify-content: left;
     }
 }
 

@@ -12,7 +12,7 @@
 
 @media (max-width: 1800px) {
     .covid-main {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .covid-left, .covid-right {
         width: 100%;
