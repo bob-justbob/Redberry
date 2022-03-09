@@ -185,7 +185,6 @@ body {
 @media (max-width: 1789px) {
     .origin-text {
         width: 100%;
-        background-color: blue;
         margin: 0;
         display: flex;
         justify-content: center;
