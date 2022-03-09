@@ -64,19 +64,37 @@
     }
 }
 
+
+
 @media (max-width: 851px) {
     .about-header {
         justify-content: left;
     }
 }
 .dev-flex {
-
     display: flex;
+    width: 10vh;
+}
+.dev-flex input {
+    width: 100px;
+}
+@media (max-width: 1145px) {
+    .dev-flex input {
+        width: 100px;
+    }
+
+}
+
+.dev-flex .round {
+    width: 500px;
+    padding: 10px;
 }
 
 .bye {
     margin-top: 2vh;
+    
 }
+
 @media (max-width: 705px) {
     .about-header {
         margin: 0;
@@ -98,7 +116,21 @@
         font-size: 35px;
     }
 }
+@media (max-width: 594px) {
+    .dev-flex input {
+        width: 200px;
+    }
+}
 
+@media (max-width: 382px) {
+    .dev-flex input {
+        width: 1000%;
+     
+    }
+    .dev-flex {
+        margin: 2vh;
+    }
+}
 /* devtalk */ 
 
 .devtalk {
@@ -129,7 +161,7 @@
     
 }
 @media (max-width: 839px) {
-    .devtalk  {
+    .devtalk   {
       justify-content: left;
       padding: 0 2vh;
       margin-top: 10vh;
