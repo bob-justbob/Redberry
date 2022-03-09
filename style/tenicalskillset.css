@@ -121,6 +121,8 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2vh 0;
+
 }
 
 
@@ -128,6 +130,7 @@ input {
 .input-a a {
     color: #ffffff;
     padding: 5px 4px;
+    padding: 3vh;
 }
 
 
