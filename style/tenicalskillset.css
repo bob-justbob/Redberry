@@ -267,7 +267,6 @@ input {
 
     }
     .battle-header div {
-        background-color: aqua;
         display: flex;
         justify-content: left;
     }
@@ -285,6 +284,12 @@ input {
     .battle-header div h1 {
         font-size: 40px;
     }
+}
+@media (max-width: 462px) {
+    .battle-header {
+        position: relative;
+    }
+
 }
 @media (max-width: 400px) {
     .battle-header div h1 {
