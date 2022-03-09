@@ -1,8 +1,8 @@
 const fname = document.getElementById('fname');
 const lname = document.getElementById('lname');
-
 const skill = document.getElementById('slill')
 const email = document.getElementById('email')
+const phone = document.getElementById('phone')
 
 
 fname.addEventListener('change', ()=> {
@@ -17,5 +17,7 @@ lname.addEventListener('change', ()=>{
         alert(lname.value + ' need more then two letters')
     }
 })
+
+
 
 

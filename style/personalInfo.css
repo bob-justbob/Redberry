@@ -10,7 +10,7 @@ body {
     height: 1080px;
 }
 
-@media (max-width: 1796px) {
+@media (max-width: 1896px) {
     body {
         flex-direction: column;
     }
